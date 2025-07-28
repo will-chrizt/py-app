@@ -7,7 +7,7 @@ on:
       - 'v*.*.*' # Also trigger on version tags like v1.0.0
 
 env:
-  REGISTRY: ghcr.io # Or docker.io, your-aws-account-id.dkr.ecr.your-region.amazonaws.com
+  REGISTRY: docker.io # Or docker.io, your-aws-account-id.dkr.ecr.your-region.amazonaws.com
 
 jobs:
   build-and-push-docker-image:
